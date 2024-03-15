@@ -3,8 +3,9 @@
 
 
 
-##Kubernetes Alias
+## Kubernetes Alias
 
+Function to switch the namespace and context
 
 Alias to switch the namespace
 
@@ -18,4 +19,4 @@ Alias to switch the context
 ksc() { kubectl config use-context "$1" }
 ```
 
-Sournce the RC file 
+Source the RC file 
